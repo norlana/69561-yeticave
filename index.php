@@ -40,8 +40,8 @@ $user_name = 'Светлана'; // укажите здесь ваше имя
             <a href="#">Вход</a>
           </li>
         </ul>
-        </nav>
         <?php endif; ?>
+        </nav>
     </div>
 </header>
 
