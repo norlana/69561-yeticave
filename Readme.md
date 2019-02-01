@@ -1,7 +1,7 @@
 # Личный проект «YetiCave»
 
 * Студент: [Светлана Нехай](https://up.htmlacademy.ru/php/8/user/69561).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Пасунько](https://htmlacademy.ru/profile/id702351).
 
 ---
 
