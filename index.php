@@ -46,12 +46,9 @@ $ads_list = [
 
 function htmlformat_num($number) {
   
-  $int_num = ceil($number);
-  
-    if ($int_num >= 1000) {
-      $number = number_format($int_num, 0, '.', ' ');
-      $number .= " <small>₽</small>";
-    }
+    if ($number >= 1000) {
+      $number = number_format($number,0,","," ") . ' ₽';
+  }
   return $number;
 }
 ?>
