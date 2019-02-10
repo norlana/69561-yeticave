@@ -1,6 +1,11 @@
 <?php
 require_once('functions.php');
 
+// Часовой пояс GMT+3 (Московское время)
+date_default_timezone_set('Europe/Moscow');
+
+setlocale(LC_ALL, 'ru_Ru');
+
 $is_auth = rand(0, 1);
 
 $user_name = 'Светлана';

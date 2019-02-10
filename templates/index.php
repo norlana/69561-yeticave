@@ -28,7 +28,7 @@
                             <span class="lot__cost"><?=strip_tags(num_to_price($value['price'])); ?></span>
                         </div>
                         <div class="lot__timer timer">
-                            12:23
+                            <?=finish_time_counter(); ?>
                         </div>
                     </div>
                 </div>
